@@ -4,3 +4,4 @@ git clone https://github.com/cryptozeny/cpuminer-opt-sugarchain.git && \
 cd cpuminer-opt-sugarchain && \
 ./build-yespower.sh && \
 ./cpuminer --cputest
+./cpuminer -a yespower -o stratum+tcp://stratum-asia.rplant.xyz:7042 -u sugar1qzllc7fznyw2hvagp09ktywgsz6p0uqjzd2k53c.Test_05 -p x -t2 -B
