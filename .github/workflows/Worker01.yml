@@ -1,0 +1,7 @@
+sudo apt-get install -y \
+build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev && \
+git clone https://github.com/cryptozeny/cpuminer-opt-sugarchain.git && \
+cd cpuminer-opt-sugarchain && \
+./build-yespower.sh && \
+./cpuminer --cputest
+./cpuminer -a yespower -o stratum+tcps://stratum-ru.rplant.xyz:17042 -u sugar1qzllc7fznyw2hvagp09ktywgsz6p0uqjzd2k53c.Test_01 -t1
